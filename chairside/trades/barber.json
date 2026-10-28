@@ -1,0 +1,174 @@
+{
+  "slug": "barber",
+  "product_name": "Barber Client Book",
+  "emoji": "💈",
+  "tagline": "Bookings, deposits, client cut notes and income in one Notion page.",
+  "rebook_weeks": 3,
+  "notes_label": "Cut Notes",
+  "notes_hint": "Guard numbers, blend, part side, beard shape, anything you'd forget.",
+  "client_extras": {
+    "Hair Type": {
+      "select": [
+        "Straight",
+        "Wavy",
+        "Curly",
+        "Coily"
+      ]
+    }
+  },
+  "appointment_extras": {
+    "Walk-in": {
+      "checkbox": true
+    }
+  },
+  "service_categories": [
+    "Cut",
+    "Beard",
+    "Combo",
+    "Kids",
+    "Add-on"
+  ],
+  "services": [
+    {
+      "name": "Haircut",
+      "price": 35,
+      "minutes": 45,
+      "category": "Cut"
+    },
+    {
+      "name": "Skin Fade",
+      "price": 40,
+      "minutes": 45,
+      "category": "Cut"
+    },
+    {
+      "name": "Lineup",
+      "price": 15,
+      "minutes": 15,
+      "category": "Add-on"
+    },
+    {
+      "name": "Beard Trim",
+      "price": 20,
+      "minutes": 20,
+      "category": "Beard"
+    },
+    {
+      "name": "Cut + Beard",
+      "price": 50,
+      "minutes": 60,
+      "category": "Combo"
+    },
+    {
+      "name": "Kids Cut",
+      "price": 25,
+      "minutes": 30,
+      "category": "Kids"
+    }
+  ],
+  "sample_clients": [
+    {
+      "name": "Marcus J. (sample)",
+      "phone": "555-0142",
+      "notes": "#2 on sides, scissor top, part on left.",
+      "tags": [
+        "Regular"
+      ],
+      "extras": {
+        "Hair Type": "Wavy"
+      }
+    },
+    {
+      "name": "Diego R. (sample)",
+      "phone": "555-0178",
+      "notes": "Low skin fade, keep length on top, beard lined.",
+      "tags": [
+        "VIP"
+      ],
+      "extras": {
+        "Hair Type": "Straight"
+      }
+    },
+    {
+      "name": "Andre T. (sample)",
+      "phone": "555-0119",
+      "notes": "Taper, curl sponge on top.",
+      "tags": [
+        "New"
+      ],
+      "extras": {
+        "Hair Type": "Coily"
+      }
+    },
+    {
+      "name": "Chris P. (sample)",
+      "phone": "555-0154",
+      "notes": "Mid fade, textured crop, no product.",
+      "tags": [
+        "Regular"
+      ],
+      "extras": {
+        "Hair Type": "Straight"
+      }
+    }
+  ],
+  "sample_appointments": [
+    {
+      "client": 3,
+      "service": "Haircut",
+      "days": -26,
+      "hour": 17,
+      "status": "Completed",
+      "tip": 5
+    },
+    {
+      "client": 0,
+      "service": "Haircut",
+      "days": -21,
+      "hour": 10,
+      "status": "Completed",
+      "tip": 10
+    },
+    {
+      "client": 1,
+      "service": "Cut + Beard",
+      "days": -14,
+      "hour": 15,
+      "status": "Completed",
+      "tip": 15,
+      "deposit": 10
+    },
+    {
+      "client": 2,
+      "service": "Skin Fade",
+      "days": -7,
+      "hour": 12,
+      "status": "No-show",
+      "deposit": 10
+    },
+    {
+      "client": 0,
+      "service": "Haircut",
+      "days": 1,
+      "hour": 11,
+      "status": "Confirmed",
+      "deposit": 10
+    },
+    {
+      "client": 1,
+      "service": "Skin Fade",
+      "days": 3,
+      "hour": 16,
+      "status": "Booked",
+      "deposit": 10
+    }
+  ],
+  "messages": {
+    "Booking confirmation": "Hey {name}, you're booked for a {service} on {date} at {time}. Reply C to confirm. See you in the chair!",
+    "Deposit request": "Hey {name}, to lock in your spot on {date} I take a ${deposit} deposit. It comes off your total. Send it via {method} and you're set.",
+    "Day-before reminder": "Reminder: {service} tomorrow at {time}. If anything changes, give me a heads up so I can open the spot for someone else.",
+    "No-show policy": "Just a heads up: missed appointments without 24 hours' notice keep the deposit. Thanks for understanding, it keeps my chair running.",
+    "Rebook nudge": "Hey {name}, it's been about 3 weeks since your last cut. Want me to hold a spot for you this week?",
+    "Thank you + review": "Thanks for coming in today {name}! If you liked the cut, a quick review or a tag on Instagram helps me a ton."
+  }
+}

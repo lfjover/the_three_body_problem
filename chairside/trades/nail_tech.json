@@ -1,0 +1,199 @@
+{
+  "slug": "nail_tech",
+  "product_name": "Nail Tech Client Book",
+  "emoji": "💅",
+  "tagline": "Bookings, deposits, fill schedule, client nail notes and income in one Notion page.",
+  "rebook_weeks": 2,
+  "notes_label": "Nail Notes",
+  "notes_hint": "Shape, length, favorite colors, sensitivities, how the last set held up.",
+  "client_extras": {
+    "Nail Shape": {
+      "select": [
+        "Almond",
+        "Coffin",
+        "Square",
+        "Oval",
+        "Stiletto",
+        "Round"
+      ]
+    },
+    "Length": {
+      "select": [
+        "Short",
+        "Medium",
+        "Long",
+        "XL"
+      ]
+    }
+  },
+  "appointment_extras": {
+    "Design Inspo": {
+      "url": true
+    },
+    "Aftercare Sent": {
+      "checkbox": true
+    }
+  },
+  "service_categories": [
+    "Full Set",
+    "Fill",
+    "Manicure",
+    "Pedicure",
+    "Art",
+    "Removal"
+  ],
+  "services": [
+    {
+      "name": "Gel Manicure",
+      "price": 40,
+      "minutes": 60,
+      "category": "Manicure"
+    },
+    {
+      "name": "Acrylic Full Set",
+      "price": 65,
+      "minutes": 90,
+      "category": "Full Set"
+    },
+    {
+      "name": "Acrylic Fill",
+      "price": 45,
+      "minutes": 75,
+      "category": "Fill"
+    },
+    {
+      "name": "Gel-X Full Set",
+      "price": 70,
+      "minutes": 90,
+      "category": "Full Set"
+    },
+    {
+      "name": "Pedicure",
+      "price": 45,
+      "minutes": 60,
+      "category": "Pedicure"
+    },
+    {
+      "name": "Nail Art (per set)",
+      "price": 15,
+      "minutes": 30,
+      "category": "Art"
+    },
+    {
+      "name": "Soak-off Removal",
+      "price": 15,
+      "minutes": 20,
+      "category": "Removal"
+    }
+  ],
+  "sample_clients": [
+    {
+      "name": "Jasmine L. (sample)",
+      "phone": "555-0163",
+      "notes": "Medium almond, nude + chrome. Lifts on right index, prep extra.",
+      "tags": [
+        "Regular"
+      ],
+      "extras": {
+        "Nail Shape": "Almond",
+        "Length": "Medium"
+      }
+    },
+    {
+      "name": "Brianna K. (sample)",
+      "phone": "555-0127",
+      "notes": "Long coffin, loves 3D art. Books every 2 weeks.",
+      "tags": [
+        "VIP"
+      ],
+      "extras": {
+        "Nail Shape": "Coffin",
+        "Length": "Long"
+      }
+    },
+    {
+      "name": "Sofia M. (sample)",
+      "phone": "555-0185",
+      "notes": "Short square, classic red. Sensitive cuticles.",
+      "tags": [
+        "New"
+      ],
+      "extras": {
+        "Nail Shape": "Square",
+        "Length": "Short"
+      }
+    },
+    {
+      "name": "Taylor W. (sample)",
+      "phone": "555-0131",
+      "notes": "Medium oval gel, pastel colors, gentle with filing.",
+      "tags": [
+        "Regular"
+      ],
+      "extras": {
+        "Nail Shape": "Oval",
+        "Length": "Medium"
+      }
+    }
+  ],
+  "sample_appointments": [
+    {
+      "client": 3,
+      "service": "Gel Manicure",
+      "days": -19,
+      "hour": 16,
+      "status": "Completed",
+      "tip": 8
+    },
+    {
+      "client": 0,
+      "service": "Acrylic Full Set",
+      "days": -16,
+      "hour": 11,
+      "status": "Completed",
+      "tip": 12,
+      "deposit": 20
+    },
+    {
+      "client": 1,
+      "service": "Acrylic Fill",
+      "days": -12,
+      "hour": 14,
+      "status": "Completed",
+      "tip": 10,
+      "deposit": 20
+    },
+    {
+      "client": 2,
+      "service": "Gel Manicure",
+      "days": -5,
+      "hour": 10,
+      "status": "No-show",
+      "deposit": 15
+    },
+    {
+      "client": 0,
+      "service": "Acrylic Fill",
+      "days": 2,
+      "hour": 13,
+      "status": "Confirmed",
+      "deposit": 20
+    },
+    {
+      "client": 1,
+      "service": "Gel-X Full Set",
+      "days": 4,
+      "hour": 15,
+      "status": "Booked",
+      "deposit": 20
+    }
+  ],
+  "messages": {
+    "Booking confirmation": "Hi {name}! You're booked for a {service} on {date} at {time}. Send your inspo pics ahead of time so I can plan the design 💅",
+    "Deposit request": "Hi {name}! A ${deposit} deposit holds your spot for {date}. It comes off your total. You can send it via {method}.",
+    "Day-before reminder": "See you tomorrow at {time} for your {service}! Please come with bare nails unless you booked a removal.",
+    "No-show policy": "Quick reminder of my policy: cancellations under 24 hours or no-shows keep the deposit. Thank you for respecting my time!",
+    "Fill reminder": "Hi {name}, it's been about 2 weeks since your set. Ready for a fill? I have openings this week.",
+    "Aftercare": "Thanks for coming in {name}! Aftercare: use cuticle oil daily, wear gloves for cleaning, and don't pick or bite. Message me if anything lifts within 3 days."
+  }
+}
